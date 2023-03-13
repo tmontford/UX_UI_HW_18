@@ -7,21 +7,6 @@
     background-color: #426A5A;
 }
 
-.skills {
-  background-color: bisque;
-  margin: 100px auto;
-  max-width: 970px; min-height: 250px;
-}
-
-.info_box{
-  width: 33.3%; min-height: 250px;
-  float:left;
-}
-
-.info_box:nth-child(1) {background-color: green;}
-.info_box:nth-child(1) {background-color: blue;}
-.info_box:nth-child(1) {background-color: red;}
-
   .container {
     display: flex;
     align-items: center;
@@ -80,7 +65,7 @@ header {
     color:rgba(0, 136, 169,1)
 }
 
-button {
+.button {
 padding: 9px 25px;
 background-color: rgba(0, 136, 169,1)
 border:none;
@@ -92,6 +77,21 @@ transition:all 0.3s ease 0s;
 button:hover{
     background-color:rgba(0, 136, 169,0.8)
 }
+
+.skills {
+  background-color: bisque;
+  margin: 100px auto;
+  max-width: 970px; min-height: 250px;
+}
+
+.info_box{
+  width: 33.3%; min-height: 250px;
+  float:left;
+}
+
+.info_box:nth-child(1) {background-color: green;}
+.info_box:nth-child(1) {background-color: blue;}
+.info_box:nth-child(1) {background-color: red;}
 
 .footer {
     position: fixed;
