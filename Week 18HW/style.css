@@ -11,9 +11,35 @@
   justify-content: center
 }
 
+.skills:before,
+.skills:after {
+  content: "";
+  display: table;
+}
+.skills:after {
+  clear: both;
+}
+.skills {
+  clear: both;
+  *zoom: 1;
+}
+section {
+  padding-top: 100px;
+  float: left;
+  display: inline-block;
+  margin: 0 1.5%;
+  width: 30%;
+}
+aside {
+  float: right;
+  margin: 0 1.5%;
+  width: 30%;
+}
+
 img {
   max-width: 100%;
   max-height:100%;
+  position: relative;
 }
 
 .text {
@@ -25,6 +51,14 @@ h1{
   font-family: 'Karla', sans-serif;
   font-family: 'Montserrat', sans-serif;
 }
+
+
+h3{
+  font-family: 'Karla', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  text-align: justify;
+}
+
 
 p{
   font-family: 'Karla', sans-serif;
